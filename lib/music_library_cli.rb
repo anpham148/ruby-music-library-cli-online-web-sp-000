@@ -22,6 +22,7 @@ class MusicLibraryController
     input = gets.strip.to_s
     if input = "list_songs"
       list_songs
+      call
     elsif input = "list_artists"
       list_artists
     elsif input = "list_genres"
