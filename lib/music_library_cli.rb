@@ -29,8 +29,6 @@ class MusicLibraryController
       list_genres
     elsif input = "exit"
       break
-    else
-      call
     end
 
   end
