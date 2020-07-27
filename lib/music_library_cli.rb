@@ -21,7 +21,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.strip.to_s
     if input = "exit"
-       break
+
     elsif input = "list songs"
       list_songs
       call
