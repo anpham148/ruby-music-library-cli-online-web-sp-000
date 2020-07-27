@@ -26,8 +26,8 @@ class MusicLibraryController
       list_artists
     elsif input = "list_genres"
       list_genres
-    elsif input = "exit"
-      break
+    # elsif input = "exit"
+    #   break
     else
       call
     end
