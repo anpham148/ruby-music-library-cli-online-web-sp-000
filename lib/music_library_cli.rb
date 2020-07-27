@@ -20,7 +20,6 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     input = gets.strip.to_s
-    binding.pry
     if input = "exit"
        break
     elsif input = "list songs"
